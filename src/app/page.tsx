@@ -129,10 +129,10 @@ export default function Home() {
               />
             </a>
           </div>
-          <button className="bg-[#17FF90] px-5 py-2 text-2xl rounded-xl mt-5">PLAY NOW
+          <button className="bg-[#17FF90] md:hidden px-5 py-2 text-2xl rounded-xl mt-5">PLAY NOW
 
           </button>
-          <p className="text-[#6B6B6B] text-xs mt-3">Are you still thinking?</p>
+          <p className="text-[#6B6B6B] md:hidden text-xs mt-3">Are you still thinking?</p>
         </div>
 
         {/* Right Content */}
@@ -145,26 +145,26 @@ export default function Home() {
             className="md:absolute hidden md:block top-1/2 -translate-y-1/2 -right-20 z-20 object-contain"
           />
 
-          <div className="absolute bottom-20 sm:bottom-36 md:-right-10 -left-10 sm:-left-[30rem] text-2xl sm:text-5xl items-center z-30">
+          <div className="absolute top-64  -right-10 items-center z-30">
             <a
               href="https://link.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block transition-transform duration-200 hover:-translate-y-2 hover:scale-105"
             >
-              <Image src="/button.svg" alt="button" width={200} height={80} className="sm:w-[389px] sm:h-[156px] w-[200px] h-[80px]" />
+              <Image src="/button.svg" alt="button" width={250} height={80} className="w-[410px] h-[170px]" />
             </a>
           </div>
 
           {/* Info Boxes */}
-          <div className="bg-black/40 backdrop-blur-2xl p-1 sm:p-2 px-2 sm:px-4 rounded-none absolute top-24 sm:top-52 right-2 sm:right-10 z-20 whitespace-nowrap">
+          <div className="bg-black/40 backdrop-blur-2xl p-2  px-4 rounded-none absolute top-52  right-10 z-20 whitespace-nowrap">
             <h1 className="text-xs sm:text-sm">The most advanced servers in{" "}
               <span className="--green">Blakan{" "}</span>
               Community
             </h1>
           </div>
 
-          <div className="bg-black/40 backdrop-blur-2xl p-1 sm:p-2 px-2 sm:px-4 rounded-none absolute top-40 sm:top-92 -right-20 sm:-right-52 z-20 flex flex-row gap-1 sm:gap-2 items-center whitespace-nowrap">
+          <div className="bg-black/40 backdrop-blur-2xl p-1  px-2  rounded-none absolute top-10 -right-52 z-20 flex flex-row gap-1  items-center whitespace-nowrap">
             <h1 className="text-xs sm:text-sm">Join Ever
               <span className="--green">Green</span> - Romanian Server
             </h1>
@@ -193,7 +193,7 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="bg-black/40 backdrop-blur-2xl p-1 sm:p-2 px-2 sm:px-4 rounded-none absolute md:bottom-72 md:-left-15 bottom-32 sm:bottom-72 -left-20 sm:-left-60 z-20 flex flex-row gap-1 sm:gap-2 items-center whitespace-nowrap">
+          <div className="bg-black/40 backdrop-blur-2xl p-1 sm:p-2 px-2 sm:px-4 rounded-none absolute bottom-72  right-20 z-20 flex flex-row gap-1  items-center whitespace-nowrap">
             <h1 className="text-xs sm:text-sm">Join Ever
               <span className="--green">Green</span> -Bulgarian Server
             </h1>
