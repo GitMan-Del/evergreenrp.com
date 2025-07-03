@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.no-scrollbar{
+  scrollbar-width: none;
+}
+
+/* Border utility class */
+.--border {
+  border: 1px solid #35353576; /* sau orice culoare dorești, aici am folosit foreground */
+}
+
+.--p-text{
+  color: #ADADAD;
+}
+
+.--green{
+  color: #17FF90;
+}
+
+
+.border-t-0 {
+  border-top: 0 !important;
+}
+.border-b-0 {
+  border-bottom: 0 !important;
+}
+
+.border-y-0 {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
