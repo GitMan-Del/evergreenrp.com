@@ -7,6 +7,17 @@
   }
 }
 
+
+html, body, * {
+  cursor:  url('/cursor.svg') 1 1, auto;
+ 
+}
+
+button, a, [role="button"] {
+  cursor: url('/Cursor-pointer.svg') 1 1, pointer;
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -40,4 +51,40 @@ body {
 .border-y-0 {
   border-top: 0 !important;
   border-bottom: 0 !important;
+}
+
+@keyframes float-rotate {
+  0% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  20% {
+    transform: translateY(-2px) rotate(2deg);
+  }
+  40% {
+    transform: translateY(-4px) rotate(-3deg);
+  }
+  60% {
+    transform: translateY(-2px) rotate(3deg);
+  }
+  80% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+}
+
+.float-rotate {
+  animation: float-rotate 7s ease-in-out infinite;
+  will-change: transform;
+}
+
+.float-delay-1 {
+  animation-delay: 0s;
+}
+.float-delay-2 {
+  animation-delay: 2.5s;
+}
+.float-delay-3 {
+  animation-delay: 5s;
 }

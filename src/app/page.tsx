@@ -114,8 +114,8 @@ export default function Home() {
               <Image
                 src="/dis.png"
                 alt="Discord"
-                height={36}
-                width={36}
+                height={50}
+                width={50}
                 className="hover:cursor-pointer hover:rotate-6 transition-all duration-200"
               />
             </a>
@@ -123,8 +123,8 @@ export default function Home() {
               <Image
                 src="/tt.png"
                 alt="TikTok"
-                height={36}
-                width={36}
+                height={50}
+                width={50}
                 className="hover:cursor-pointer hover:rotate-6 transition-all duration-200"
               />
             </a>
@@ -157,14 +157,14 @@ export default function Home() {
           </div>
 
           {/* Info Boxes */}
-          <div className="bg-black/40 backdrop-blur-2xl p-2  px-4 rounded-none absolute top-52  right-10 z-20 whitespace-nowrap">
+          <div className="bg-black/40 backdrop-blur-2xl p-2  px-4 rounded-none absolute top-52  right-10 z-20 whitespace-nowrap float-rotate float-delay-1">
             <h1 className="text-xs sm:text-sm">The most advanced servers in{" "}
               <span className="--green">Blakan{" "}</span>
               Community
             </h1>
           </div>
 
-          <div className="bg-black/40 backdrop-blur-2xl p-1  px-2  rounded-none absolute top-10 -right-52 z-20 flex flex-row gap-1  items-center whitespace-nowrap">
+          <div className="bg-black/40 backdrop-blur-2xl p-1  px-2  rounded-none absolute top-10 -right-52 z-20 flex flex-row gap-1  items-center whitespace-nowrap float-rotate float-delay-2">
             <h1 className="text-xs sm:text-sm">Join Ever
               <span className="--green">Green</span> - Romanian Server
             </h1>
@@ -193,7 +193,7 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="bg-black/40 backdrop-blur-2xl p-1 sm:p-2 px-2 sm:px-4 rounded-none absolute bottom-72  right-20 z-20 flex flex-row gap-1  items-center whitespace-nowrap">
+          <div className="bg-black/40 backdrop-blur-2xl p-1 sm:p-2 px-2 sm:px-4 rounded-none absolute bottom-72  right-20 z-20 flex flex-row gap-1  items-center whitespace-nowrap float-rotate float-delay-3">
             <h1 className="text-xs sm:text-sm">Join Ever
               <span className="--green">Green</span> -Bulgarian Server
             </h1>

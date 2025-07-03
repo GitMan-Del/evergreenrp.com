@@ -29,7 +29,7 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center justify-center w-full h-full">
-          <ul className="flex space-x-10 text-white text-sm font-semibold">
+          <ul className="flex space-x-5 text-white text-sm font-semibold">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <a
