@@ -77,14 +77,14 @@ export default function Home() {
       <div
         className="flex flex-col md:flex-row min-w-[90%] sm:min-w-[60%] mx-auto h-full items-center relative justify-between p-2 sm:p-5 --border border-y-0"
         style={{
-          minHeight: "calc(100vh - 64px)", // 64px = approx navbar height
+          minHeight: "calc(100vh - 64px)", // 64px = aprox navbar height
           justifyContent: "center",
         }}
       >
         {/* Background Image */}
         <Image
-          src="/bg.png"
-          alt="Background" 
+          src="/Bg.png"
+          alt="Background"
           height={1920}
           width={1080}
           className="absolute top-0 left-0 w-full h-full z-0 object-cover"
