@@ -9,16 +9,16 @@ const urbanist = Urbanist({
 
 export default function Home() {
   return (
-    <div className="bg-[#040303] min-h-screen w-full relative flex flex-col overflow-y-hidden">
+    <div className="bg-[#040303] min-h-screen w-full relative flex flex-col overflow-y-hidden text-white">
       <Navbar />
       {/* Background Blurs */}
-      <div className="w-[300px] h-[40%] sm:w-[400px] sm:h-[70%] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute top-1/2 -translate-y-1/2 -left-10 sm:-left-20 opacity-20"></div>
-      <div className="w-[40%] h-[120px] sm:w-[30%] sm:h-[300px] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute -bottom-10 sm:-bottom-20 -translate-x-1/2 left-1/2 opacity-30"></div>
-      <div className="w-[20%] h-[120px] sm:w-[10%] sm:h-[345px] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute top-1/2 -translate-y-1/2 right-0 opacity-40"></div>
-      <div className="w-[40%] h-[100px] sm:w-[35%] sm:h-[245px] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute -top-20 sm:-top-36 translate-x-1/2 right-1/2 opacity-20 "></div>
+      <div className="w-[300px] h-[40%] sm:w-[400px] sm:h-[70%] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute top-1/2 -translate-y-1/2 -left-10 sm:-left-20 opacity-30 rounded-full"></div>
+      <div className="w-[40%] h-[120px] sm:w-[30%] sm:h-[300px] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] rounded-full absolute -bottom-10 sm:-bottom-20 -translate-x-1/2 left-1/2 opacity-40 z-20"></div>
+      <div className="w-[20%] h-[120px] sm:w-[10%] sm:h-[345px] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute top-1/2 -translate-y-1/2 right-0 opacity-30 rounded-full"></div>
+      <div className="w-[40%] h-[100px] sm:w-[35%] sm:h-[245px] bg-[#17FF90]/50 blur-[70px] sm:blur-[90px] absolute -top-20 sm:-top-36 translate-x-1/2 right-1/2 opacity-40 rounded-full "></div>
 
       {/* SVG Grid Overlays */}
-      <div className="absolute left-1/2 -translate-x-1/2 bottom-0 h-[10%] sm:h-[20%] w-[90%] sm:w-[60%] z-10 pointer-events-none opacity-20">
+      <div className="absolute left-1/2 -translate-x-1/2 bottom-0 h-[10%] sm:h-[20%] w-[90%] sm:w-[60%] z-10 pointer-events-none opacity-10">
         <div
           className="absolute inset-0"
           style={{
@@ -36,7 +36,7 @@ export default function Home() {
           }}
         />
       </div>
-      <div className="absolute left-0 top-0 h-full w-[30%] sm:w-[20%] z-10 pointer-events-none opacity-20">
+      <div className="absolute left-0 top-0 h-full w-[30%] sm:w-[20%] z-10 pointer-events-none opacity-10">
         <div
           className="absolute inset-0"
           style={{
@@ -50,11 +50,11 @@ export default function Home() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "radial-gradient(circle at 80% 50%, transparent 60%, #040303 100%)",
+            background: "radial-gradient(circle at 80% 80%, transparent 90%, #040303 100%)",
           }}
         />
       </div>
-      <div className="absolute right-0 top-0 h-full w-[30%] sm:w-[20%] z-10 pointer-events-none opacity-20">
+      <div className="absolute right-0 top-0 h-full w-[30%] sm:w-[20%] z-10 pointer-events-none opacity-10">
         <div
           className="absolute inset-0"
           style={{
