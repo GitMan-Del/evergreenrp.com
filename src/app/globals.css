@@ -88,3 +88,35 @@ body {
 .float-delay-3 {
   animation-delay: 5s;
 }
+
+/* Gradient text for STORY title */
+.gradient-story-title {
+  background: linear-gradient(90deg, #17FF90 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Card border with glow (for STORY section) */
+.story-card-border {
+  border: 2px solid #17FF90;
+  box-shadow: 0 0 16px 0 #17FF9066, 0 0 0 2px #17FF9033;
+  border-radius: 8px;
+}
+
+/* Card border for dark cards (white glow) */
+.story-card-border-dark {
+  border: 2px solid #17FF90;
+  border-radius: 8px;
+}
+
+/* Blurred patch for background */
+.story-blur-patch {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}

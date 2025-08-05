@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EvergreenRp",
-  description: "EvergreenRp [Fivem RP]",
+  title: "EverGreen RP - Cel mai autentic server de roleplay din România",
+  description: "Descoperă EverGreen RP, serverul FiveM cu cea mai realistă economie și experiență de roleplay din România. Intră într-o lume complexă și captivantă!",
   icons: {
-    icon: "/images/favicon.png", // sau "/favicon.ico"
+    icon: "/logo.png", // sau ".ico"
   },
 };
 
@@ -27,7 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        {/* <link rel="icon" href="/images/favicon.png" type="image/png" /> */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
